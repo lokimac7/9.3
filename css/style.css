@@ -1,0 +1,32 @@
+body {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#carousel {
+	margin: 0 auto;
+	width: 400px;
+	height: 300px;
+	border: 2px solid violet;
+	overflow: hidden;
+	padding: 0;
+}
+
+ul {
+	width: 2000px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: left;
+	width: 400px;
+	height: 300px;
+}
+
+img {
+	width: 400px;
+	height: 300px;
+}
