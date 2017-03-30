@@ -53,3 +53,12 @@ img {
 	position: relative;
 	top: calc(-50% - 25px);
 }
+
+a img {
+	width: 60px;
+	height: 45px;
+}
+
+#carousel-pagination a img.active {
+	border: 3px solid red;
+}

@@ -30,5 +30,22 @@ $(function(){
 		carouselList.css({marginRight: 0});
 		carouselList.animate({'marginRight': -400}, 500);
 	});
+
+	var carouselPagination = $('#carousel-pagination');
+
+	function pagination() {
+
+		carouselPagination.on('#carousel-pagination:active', 'li img', function() {
+		carouselPagination.addClass('active');
+		});
+	
+		carouselPagination.on('#carousel-pagination:inactive', 'li img', function() {
+		carouselPagination.removeClass('active');
+		});
+	}
+
+	pagination();
+
+
 });
 
